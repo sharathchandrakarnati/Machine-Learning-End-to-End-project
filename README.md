@@ -3,7 +3,7 @@ My end to end machine learning end to end project
 
 Requriments:
 --------------
-github account:
-heroku account:
-vs code IDE:
-GIT CLI:
+1 .[github account]:
+2.[heroku account]:
+3.[vs code IDE]:
+4.[GIT CLI]:
