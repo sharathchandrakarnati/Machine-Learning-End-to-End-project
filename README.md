@@ -1,7 +1,7 @@
 # Machine-Learning-End-to-End-project
 My end to end machine learning end to end project
 
-Requriments:
+ Software and Account Requriments:
 --------------
 1 .[github account]
 2.[heroku account]
