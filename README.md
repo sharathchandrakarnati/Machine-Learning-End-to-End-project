@@ -7,7 +7,7 @@
  2.[heroku account]
  3.[vs code IDE]
  4.[GIT CLI]
- 
+
 
 
 Create conda environment 
@@ -57,3 +57,11 @@ To check url
 git remote -v
 ```
 
+
+
+
+
+To set CI/CD PIPELINE IN HEROKU WE NEED 3 INFORMATION 
+1. Heroku_email = sharathchandrakarnati5@gmail.com
+2. Heroku_Api_Key = f7ec100a-f0d4-4084-a26b-59a7acab791d
+3. Heroku_App_name = app name 
