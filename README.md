@@ -64,4 +64,25 @@ git remote -v
 To set CI/CD PIPELINE IN HEROKU WE NEED 3 INFORMATION 
 1. Heroku_email = sharathchandrakarnati5@gmail.com
 2. Heroku_Api_Key = f7ec100a-f0d4-4084-a26b-59a7acab791d
-3. Heroku_App_name = app name 
+3. Heroku_App_name = app name
+
+
+ Bulid Docker Image 
+'''
+docker bulid -t<image_name>:<tagname> .
+'''
+
+> Note : Image name of docker must be lowercase 
+
+to list docker image
+```
+docker images 
+```
+Run docker image 
+```
+docker run -p 5000:5000 -e port =5000 44f5936b7ecd
+
+
+'''
+python setup.py install 
+'''
