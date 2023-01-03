@@ -3,7 +3,7 @@ from typing import List
 
 #### Declaring variables for setup functions
 Project_name = "Houing_precidtor"
-Version = "0.0.8"
+Version = "0.0.9"
 
 Author = "sharath chandra "
 Description = "This is my first project end to end"
@@ -19,7 +19,7 @@ def get_requirements()->list[str]:
     #mentain in requriments .txt file 
     """
     with open(Requriments_name) as requriment_file:
-          requriment_file.readlines()#.pop("-e .")
+          requriment_file.readlines().remove("-e .")
         
     
     
