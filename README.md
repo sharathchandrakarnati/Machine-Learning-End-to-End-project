@@ -86,3 +86,10 @@ docker run -p 5000:5000 -e port =5000 44f5936b7ecd
 '''
 python setup.py install 
 '''
+
+
+install ipykernel 
+
+'''
+pip install ipykernel
+'''

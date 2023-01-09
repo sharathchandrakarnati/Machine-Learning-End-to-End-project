@@ -1,14 +1,22 @@
 from flask import Flask
-
+from Housing.logger import logging
+from Housing.exception import HousingException
 app = Flask(__name__)
 
 
 @app.route("/",methods=['GET','POST'])
 def index():
+    try: 
+        raise Exception("we are testing custom exception")
+    except Exception as e:
+         Housing = HousingException(e,sys)
+         
+         logging.info("we are testing logging module")
+    logging.info("we are testing module")
     return "CI CD pipeline has been established. "
 
 if __name__ =="__main__":
-    app.run()
+    app.run(debug=True)
     
 #from flask import Flask
 #import numpy as np 
