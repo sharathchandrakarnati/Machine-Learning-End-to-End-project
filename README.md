@@ -22,6 +22,10 @@ To add files to git
 git add.
 ```
 
+to activate env
+'''
+git activate venv/
+
 To add single file 
 ```
 git add<file name>
@@ -93,3 +97,16 @@ install ipykernel
 '''
 pip install ipykernel
 '''
+
+
+
+to check current directory 
+'''
+os.getcwd()
+'''
+ to change the directory 
+ '''
+ example os.chdir("e:\\ml projects\\Machine-Learning-End-to-End-project")
+ '''
+
+ 
