@@ -7,7 +7,7 @@ data_ingestion_config:
   raw_data_dir: raw_data
   tgz_download_dir: tgz_data
   ingested_dir: ingested_data
-  ingested_train_dir: train
+  ingested_train_dir: trainDATA
   ingested_test_dir: test 
 
 
